@@ -6,7 +6,7 @@ public class Lesson7 {
     public static void main(String[] args) {
         String[][] arrayCorrectInt = new String[][]{{"1", "1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}};
         String[][] wrongSize = new String[][]{{"1", "1", "5", "1"}, {"2", "2", "2", "2"}};
-        String[][] wrongData = new String[][]{{"1", "1", "1", "1"}, {"1", "1", "a", "a"}, {"a", "a", "a", "a"}, {"a", "a", "a", "a"}};
+        String[][] wrongData = new String[][]{{"1", "1", "1", "1"}, {"1", "1", "a", "a"}, {"a", "a", "a", "a"}, {"a", "a", "a", "0"}};
 
         try {
             inputArray(arrayCorrectInt);
