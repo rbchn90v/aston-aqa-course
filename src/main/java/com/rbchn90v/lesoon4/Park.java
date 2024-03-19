@@ -14,7 +14,7 @@ public class Park {
         }
 
         public void printAttraction() {
-            System.out.println("Название - " + name + "\n" + "Время - " + time + "\n" + "Цена - " + price + "\n");
+
         }
 
         @Override
